@@ -74,15 +74,17 @@ const whitelistAddresses = [
 // Create the leaves of your Merkle Tree
 const merkleTreeLeaves = whitelistAddresses.map((address) => keccak256(address))
 
-// Create the Merkle Tree Root
-const merkleTreeRoot = new MerkleTree(merkleTreeLeaves, keccak256, {
+// Create the Merkle Tree
+const merkleTree = new MerkleTree(merkleTreeLeaves, keccak256, {
   sortPairs: true,
 })
-  .getRoot()
-  .toString('hex')
+
+// Create the Merkle Tree Root
+const merkleTreeRoot = merkleTree.getRoot().toString('hex')
 
 // Console Log the merkle tree root
 console.log(merkleTreeRoot)
+
 
 </code>
       </pre>

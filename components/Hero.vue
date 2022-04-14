@@ -46,9 +46,11 @@
                 <p
                   class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
                 >
-                  use this simple tool to generate a merkleTree and save more
-                  than 90% on your whitelist. You can use this tool to generate
-                  a merkleTree for your whitelist and save more than 90% on your
+                  Having big whitelists on your Ethereum contract can get very
+                  expensive. This page explains how you can save more than 90%
+                  on gas by using a Merkle Tree. Try out this free tool to
+                  generate your own Merke Tree Root and follow the steps below
+                  to implement it in your project.
                 </p>
                 <div class="flex translate-x-16 translate-y-10 items-center">
                   <p
