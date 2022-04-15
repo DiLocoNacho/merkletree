@@ -9,10 +9,10 @@ pragma solidity ^0.8.13;
 
 contract MerkleTree {
     // Publicly store the merkle root of your whitelist
-    bytes32 public MerkleRoot;
+    bytes32 public merkleRoot;
 
     // Set the merkle root of your whitelist here. Make sure this has an OnlyOwner modifier!
     function setMerkleRoot(bytes32 _merkleRoot) external {
-        MerkleRoot = _merkleRoot;
+        merkleRoot = _merkleRoot;
     }
 }

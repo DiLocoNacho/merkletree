@@ -24,6 +24,29 @@
           problem. This solution is very cheap and used by big companies like
           Uniswap. Find our here how you should set up your MerkleTree today!
         </p>
+
+        <client-only>
+          <div class="flex w-full items-center justify-center pt-16">
+            <blockquote class="twitter-tweet mx-auto mt-8">
+              <p lang="en" dir="ltr">
+                Make setting your whitelist 90%+ cheaper!<br /><br />Learn how
+                to set a big whitelist on your Solidity contract using Merkle
+                Proof. In this thread 🧵, I will explain step by step how to
+                implement this today!<br /><br />
+                1/*<br /><br />⬇️⬇️⬇️
+              </p>
+              &mdash; David Lo Dico AKA DiLoco.eth(✨🪶) (@David_LoDico)
+              <a
+                href="https://twitter.com/David_LoDico/status/1514914113905823747?ref_src=twsrc%5Etfw"
+                >April 15, 2022</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script></div
+        ></client-only>
       </div>
     </div>
   </section>
