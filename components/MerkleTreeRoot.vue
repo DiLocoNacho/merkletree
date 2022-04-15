@@ -46,7 +46,7 @@
                     Your Merkle Tree
                   </h3>
                   <p class="text-sm font-medium text-gray-500">
-                    Lorem ipsum dolor sit amet, consectetur adipis.
+                    This is the whole tree, all its leaves and root.
                   </p>
                 </div>
 
@@ -70,7 +70,7 @@
                       Proof for address
                     </h3>
                     <p class="text-sm font-medium text-gray-500">
-                      Lorem ipsum dolor sit amet, consectetur adipis.
+                      You need to pass this to your contract to proof that the address is part of the whitelist.
                     </p>
                   </div>
                   <div

@@ -32,4 +32,5 @@ function getProofForAddress(address) {
   }
 }
 
+console.log(getProofForAddress('123'))
 // Handle API call and return the proof here
